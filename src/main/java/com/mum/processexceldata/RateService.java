@@ -24,6 +24,7 @@ import org.apache.poi.ss.usermodel.Row;
 public class RateService {
 
     StringTokenizer st;
+    //Singleton==> load Country and codes to HashMap<long,Country>
     HashMap<Long, Country> countryCodeMap = new HashMap<Long, Country>();
 
     //rates and Date
